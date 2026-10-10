@@ -1,0 +1,10 @@
+# Company SQEMS manuals and SIRE work files are confidential — never commit
+tools/source/
+*.pdf
+*.docx
+*.xlsx
+
+# Local tooling
+.claude/
+__pycache__/
+*.pyc
