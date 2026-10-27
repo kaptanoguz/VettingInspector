@@ -9,7 +9,7 @@ function Q(ranks, a, en, tr, ref) {
     const pack = x => ({ q: x[0], o: x.slice(1, 5), why: x[5] });
     EXAM.push({ ranks: ranks === "ALL" ? null : [...new Set(ranks.split(" ").flatMap(r => (GROUPS[r] || r).split(" ")))], a, en: pack(en), tr: pack(tr), ref: ref || null });
 }
-/* Company (Torlak SQEMS) question — ref names the manual section */
+/* Company (SQEMS) question — ref names the manual section */
 const QC = (ref, ranks, a, en, tr) => Q(ranks, a, en, tr, ref);
 
 /* ── Everyone ────────────────────────────────────────────────────────── */
@@ -586,7 +586,7 @@ Q("MS", 1,
    "Müsait herhangi bir tayfa", "Gemiyi bilen yetkin bir zabit — mülakat yapılan personel adına cevap vermeden", "Acente", "Kimse — denetçi tek gezer",
    "Refakatçi kolaylaştırır; her personel kendi işi için kendisi cevap verir."]);
 
-/* ── Torlak SQEMS — company procedures ───────────────────────────────── */
+/* ── Company SQEMS procedures ────────────────────────────────────────── */
 QC("B2 §2.2.3.1", "ALL", 1,
   ["Company limits for H₂S and CO before enclosed space entry:",
    "H₂S < 10 ppm, CO < 50 ppm", "H₂S < 5 ppm, CO < 25 ppm", "H₂S < 1 ppm, CO < 5 ppm", "No specific limit, only 50% OEL",
@@ -826,10 +826,10 @@ QC("B4 §3.5", "CO 2O 3O DR", 0,
    "50 pS/m — yükleme sırasında ve sonrasında 30 dk metal numune/ulaj yasak", "500 pS/m", "10 000 pS/m", "1 pS/m",
    "Örnekler: kerosen, kümen, oktan, stiren, ksilen."]);
 QC("Rating Pocket Agenda · B1 §3.1.7", "ALL", 1,
-  ["In Torlak Shipping, the DPA (Designated Person Ashore) is:",
+  ["In the company, the DPA (Designated Person Ashore) is:",
    "The Technical Superintendent", "The HSSEQ Manager", "The Fleet Manager", "The Crewing Manager",
    "The DPA is the direct link between the ship and top management for safety and pollution prevention."],
-  ["Torlak Shipping'de DPA (Karadaki Belirlenmiş Kişi) kimdir?",
+  ["Şirkette DPA (Karadaki Belirlenmiş Kişi) kimdir?",
    "Teknik Enspektör", "HSSEQ Müdürü", "Filo Müdürü", "Personel Müdürü",
    "DPA, emniyet ve kirlilik önleme konularında gemi ile üst yönetim arasındaki doğrudan bağlantıdır."]);
 QC("MSMP §5.2.2.3", "CO 2O 3O DR CE 2E", 2,

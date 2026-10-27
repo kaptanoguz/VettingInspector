@@ -6,7 +6,7 @@
 
      S(no, ranks, highRisk, trTitle, company, [en guide], [tr guide])
 
-     company  C(ref, en, tr) — the Torlak SQEMS procedure that answers the
+     company  C(ref, en, tr) — the company SQEMS procedure that answers the
               question, written from the manuals in tools/source/manuals.
               ref names the book and section, e.g. "B2 §2.2.3.1".
      guide    [expect, evidence, common finding] — industry guidance that
@@ -44,7 +44,7 @@ const CHAPTERS = {
     10: { en: "Machinery Spaces",              tr: "Makine Daireleri" }
 };
 
-/* Torlak SQEMS books */
+/* Company SQEMS books */
 const MANUALS = {
     B1: "SMM – Safety Management Manual",
     B2: "HSSEQ Procedures",

@@ -1,7 +1,7 @@
 /* ═══════════════════════════════════════════════════════════════════════
    Vetting Inspector — app
    Per rank, three ways to prepare:
-     Checklist  · every SIRE 2.0 question for the rank, with the Torlak
+     Checklist  · every SIRE 2.0 question for the rank, with the company
                   SQEMS procedure that answers it; mark Open / Needs work /
                   Ready and keep notes
      Interview  · the inspector's question, answer aloud, then compare
@@ -11,7 +11,7 @@
 
 const T = {
     tr: {
-        brandSub: "SIRE 2.0 hazırlık · Torlak SQEMS",
+        brandSub: "SIRE 2.0 hazırlık · şirket SQEMS",
         pickRank: "Rütbe seçin",
         pickHint: "Denetçinin size soracağı SIRE 2.0 soruları, her birinin şirket prosedüründeki cevabı, mülakat pratiği ve kısa bir sınav.",
         deck: "Güverte", engine: "Makine",
@@ -51,7 +51,7 @@ const T = {
         themes: { auto: "Tema: otomatik", chart: "Tema: açık", bridge: "Tema: koyu", night: "Tema: gece (kırmızı)" },
         print: "Raporu yazdır",
         reportTitle: "Vetting hazırlık raporu", reportDate: "Tarih", status: "Durum",
-        sources: "Şirket içeriği Torlak SQEMS manuellerinin tam setinden (B1 SMM, B2 HSSEQ, B3 Bridge & Deck, B4 Cargo, B5 Engine, B6 Emergency, B7 Training), M/T ADA Palamar Sistemi ve Halat Yönetim Planı'ndan (MSMP) ve tayfa cep rehberinden alınmıştır.",
+        sources: "Şirket içeriği, şirketin SQEMS manuellerinin tam setinden (B1 SMM, B2 HSSEQ, B3 Bridge & Deck, B4 Cargo, B5 Engine, B6 Emergency, B7 Training), M/T ADA Palamar Sistemi ve Halat Yönetim Planı'ndan (MSMP) ve tayfa cep rehberinden alınmıştır.",
         disclaimer: "Hazırlık aracıdır; geçerli olan gemideki kontrollü SMS kopyasıdır.",
         offline: "İnternet gerekmez · veriler bu cihazda kalır",
         chapter: "Bölüm",
@@ -72,7 +72,7 @@ const T = {
         colNo: "No", colQ: "Soru", colRef: "Şirket prosedürü", colRes: "Sonuç", colRem: "Remark", colDept: "Departman"
     },
     en: {
-        brandSub: "SIRE 2.0 preparation · Torlak SQEMS",
+        brandSub: "SIRE 2.0 preparation · company SQEMS",
         pickRank: "Choose your rank",
         pickHint: "The SIRE 2.0 questions the inspector will ask you, the company procedure that answers each one, interview practice and a short exam.",
         deck: "Deck", engine: "Engine",
@@ -112,7 +112,7 @@ const T = {
         themes: { auto: "Theme: auto", chart: "Theme: light", bridge: "Theme: dark", night: "Theme: night (red)" },
         print: "Print report",
         reportTitle: "Vetting readiness report", reportDate: "Date", status: "Status",
-        sources: "Company content is taken from the full set of Torlak SQEMS manuals (B1 SMM, B2 HSSEQ, B3 Bridge & Deck, B4 Cargo, B5 Engine, B6 Emergency, B7 Training), the M/T ADA Mooring System & Line Management Plan (MSMP) and the rating pocket agenda.",
+        sources: "Company content is taken from the full set of the company's SQEMS manuals (B1 SMM, B2 HSSEQ, B3 Bridge & Deck, B4 Cargo, B5 Engine, B6 Emergency, B7 Training), the M/T ADA Mooring System & Line Management Plan (MSMP) and the rating pocket agenda.",
         disclaimer: "A preparation aid; the controlled SMS copy on board prevails.",
         offline: "No internet needed · data stays on this device",
         chapter: "Chapter",
