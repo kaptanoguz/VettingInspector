@@ -3,6 +3,10 @@
 Rütbe bazında SIRE 2.0 hazırlığı, cevaplar Torlak SQEMS prosedürlerinden.
 Kurulum ve internet gerekmez: `index.html` dosyasını tarayıcıda açın.
 
+*SIRE 2.0 vetting inspection preparation for oil and chemical tanker crews: the full questionnaire by rank (Master, Chief Officer, Chief Engineer…), company procedure for every question, interview practice, exam and a printable report. Offline web app, Turkish and English.*
+
+![Vetting Inspector ana ekran: SIRE 2.0 Questionnaire, Master's inspection ve rütbe seçimi](docs/screenshots/home.png)
+
 ## İçerik
 - **263 resmi SIRE 2.0 sorusu** (petrol/kimyasal tanker; gaz, LNG yakıt, DP/shuttle, OBO, polar ve fotoğraf soruları hariç).
 - Her soruda: resmi soru metni (İngilizce), **şirket prosedürü** (manuel kitabı ve bölümüyle, örn. `B2 §2.2.3.1`), ne gösterilmeli / kanıt / sık bulgu, varsa tayfa cep rehberi ve denetçi notları.
@@ -53,3 +57,9 @@ Makine: Başmühendis · İkinci Mühendis · ETO · Makine Tayfaları
 Temalar (otomatik · açık · koyu · gece kırmızı), A4 rapor yazdırma, ilerleme yedekle/geri yükle, klavye kısayolları.
 
 > Hazırlık aracıdır; geçerli olan gemideki kontrollü SMS kopyasıdır.
+
+## Ekran görüntüleri
+
+| Rütbe kontrol listesi | SIRE 2.0 Questionnaire |
+|---|---|
+| ![Chief Officer kontrol listesi: bölümlere göre sorular, Checklist / Interview / Exam sekmeleri](docs/screenshots/rank-checklist.png) | ![SIRE 2.0 Questionnaire: 263 soru, Güverte / Makine filtresi, rapor](docs/screenshots/questionnaire.png) |
